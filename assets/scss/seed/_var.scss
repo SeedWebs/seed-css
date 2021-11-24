@@ -1,0 +1,17 @@
+:root {
+  --s-border: #d8d6d0;
+  --s-text: #191e23;
+  --s-space: 16px;
+  --s-box: 16px;
+  --s-heading: "Anuphan", sans-serif;
+  --s-heading-weight: 500;
+  --s-heading-line-height: 1.3;
+  --s-body: sans-serif;
+  @media (min-width: 768px) {
+    --s-space: 20px;
+    --s-box: 20px;
+  }
+  @media (min-width: 1024px) {
+    --s-space: 30px;
+  }
+}
